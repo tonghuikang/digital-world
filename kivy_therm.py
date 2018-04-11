@@ -78,7 +78,7 @@ class TemperatureReading(GridLayout):
         current_time = time.time() - self.start_time
         
         # save time and temperature into resp. list
-        self.time_list.append(time)
+        self.time_list.append(current_time)
         self.temp_list.append(temp)
         
         # update time and temp on display
